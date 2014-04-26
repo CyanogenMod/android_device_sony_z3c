@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_device_sony_shinano-common",
+    "target_path": "device/sony/shinano-common"
+  }
+]
