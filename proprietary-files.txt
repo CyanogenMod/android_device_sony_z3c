@@ -69,6 +69,7 @@ etc/sysmon.cfg
 lib/libcald_hal.so
 lib/libcameralight.so
 lib/libsysmon_jni.so
+lib/sysmon/sysmon_torch_limit.so
 usr/idc/max1187x_touchscreen_0.idc
 vendor/camera/flash.dat
 vendor/camera/LGI02BN1_CACAO.dat
