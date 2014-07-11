@@ -32,7 +32,6 @@ etc/firmware/adsp.mdt
 etc/flashled_calc_parameters.cfg
 lib/libcald_hal.so
 lib/libcameralight.so
-lib/libcammw.so
 vendor/camera/flash.dat
 vendor/camera/LGI02BN1_CACAO.dat
 vendor/camera/LGI02BN1.dat
