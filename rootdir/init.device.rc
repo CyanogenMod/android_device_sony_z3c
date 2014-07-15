@@ -10,6 +10,3 @@ on boot
     chown system camera /sys/class/misc/pm8941-flash/device/flash_timer
     chown system camera /sys/class/misc/pm8941-flash/device/mode
     chown system camera /sys/class/misc/pm8941-flash/device/strobe
-
-    # Vibrator
-    chown system system /sys/devices/i2c-2/2-0049/intensity
