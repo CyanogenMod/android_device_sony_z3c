@@ -88,7 +88,7 @@ etc/firmware/modem.mdt
 # NFC
 etc/libnfc-nxp.conf
 etc/libnfc-brcm.conf
-lib/hw/nfc_nci_pn547.msm8974.so:lib/hw/nfc_nci.msm8974.so
+lib/hw/nfc_nci_pn547.msm8974.so
 vendor/firmware/libpn547_fw.so
 
 # Security
