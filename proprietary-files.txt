@@ -85,6 +85,11 @@ etc/firmware/modem.b26
 etc/firmware/modem.b27
 etc/firmware/modem.mdt
 
+# Modem D6502
+etc/firmware/d6502/mba.b00
+etc/firmware/d6502/modem.b01
+etc/firmware/d6502/modem.mdt
+
 # NFC
 etc/libnfc-nxp.conf
 etc/libnfc-brcm.conf
