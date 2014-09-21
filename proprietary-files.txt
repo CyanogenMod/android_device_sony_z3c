@@ -192,9 +192,25 @@ etc/firmware/touch_chip_id_0x78_config_id_0x0256.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0257.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0399.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x039d.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0408.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0409.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x040b.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x040d.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0446.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0455.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0458.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0459.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x045b.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x045d.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0485.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0488.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0489.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x048b.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x048d.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0609.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0659.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0681.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0689.bin
 usr/idc/max1187x_touchscreen_0.idc
 
 # WiFi firmware
