@@ -115,6 +115,7 @@ lib/sysmon/sysmon_v_therm2.so
 etc/sforce/sforce_coef_music.bin
 etc/sforce/sforce_coef_video.bin
 etc/tfa98xx/btm.speaker
+etc/tfa98xx/coldboot.patch
 etc/tfa98xx/FMSpeaker_btm.eq
 etc/tfa98xx/FMSpeaker_btm.preset
 etc/tfa98xx/FMSpeaker_top.eq
@@ -132,8 +133,11 @@ etc/tfa98xx/HiFiSpeakerSforce_top.preset
 etc/tfa98xx/HiFiSpeaker_top.eq
 etc/tfa98xx/HiFiSpeaker_top.preset
 etc/tfa98xx/TFA9890_btm.config
+etc/tfa98xx/TFA9890.patch
 etc/tfa98xx/TFA9890_top.config
 etc/tfa98xx/top.speaker
+etc/tfa98xx/VoiceCallEarpice_top.eq
+etc/tfa98xx/VoiceCallEarpice_top.preset
 etc/tfa98xx/VoiceCallSpeaker_btm.eq
 etc/tfa98xx/VoiceCallSpeaker_btm.preset
 etc/tfa98xx/VoiceCallSpeaker_top.eq
