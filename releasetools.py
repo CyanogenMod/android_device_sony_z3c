@@ -23,5 +23,5 @@ TARGET_DEVICE = os.getenv('CM_BUILD')
 def FullOTA_InstallEnd(self):
   self.output_zip.write(os.path.join(TARGET_DIR, "d6502.sh"), "d6502.sh")
   self.script.AppendExtra('package_extract_file("d6502.sh", "/tmp/d6502.sh");')
-  self.script.AppendExtra('set_perm(0, 0, 0777, "/tmp/d6502.sh");')
+  self.script.AppendExtra('set_metadata("/tmp/d6502.sh", "uid", 0, "gid", 0, "mode", 0755);')
   self.script.AppendExtra('run_program("/tmp/d6502.sh");')
