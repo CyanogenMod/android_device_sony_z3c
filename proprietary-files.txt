@@ -134,6 +134,7 @@ etc/tfa98xx/HiFiSpeaker_top.eq
 etc/tfa98xx/HiFiSpeaker_top.preset
 etc/tfa98xx/TFA9890_btm.config
 etc/tfa98xx/TFA9890.patch
+etc/tfa98xx/TFA9890_Receiver.config
 etc/tfa98xx/TFA9890_top.config
 etc/tfa98xx/top.speaker
 etc/tfa98xx/VoiceCallEarpice_top.eq
