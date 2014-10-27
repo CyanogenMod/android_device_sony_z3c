@@ -14,3 +14,7 @@ on boot
     # Glove input
     chown system system /sys/devices/virtual/input/max1187x/glove
     chmod 0660 /sys/devices/virtual/input/max1187x/glove
+
+    # Tap to wake
+    chown system system /sys/devices/virtual/input/max1187x/power/wakeup
+    chown 0660 /sys/devices/virtual/input/max1187x/power/wakeup
