@@ -93,7 +93,6 @@ etc/firmware/d6502/modem.mdt
 # NFC
 etc/libnfc-nxp.conf
 etc/libnfc-brcm.conf
-lib/hw/nfc_nci_pn547.msm8974.so
 vendor/firmware/libpn547_fw.so
 
 # Security
