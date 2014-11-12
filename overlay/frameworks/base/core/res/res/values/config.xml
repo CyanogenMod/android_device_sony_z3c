@@ -31,10 +31,10 @@
             16 - App switch
             32 - Camera
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareKeys">32</integer>
+         config to 7.
+    <integer name="config_deviceHardwareKeys">32</integer> -->
 
-    <!-- Device supports LED flashlight -->
-    <bool name="config_enableTorch">true</bool>
+    <!-- Device supports LED flashlight
+    <bool name="config_enableTorch">true</bool> -->
 
 </resources>
