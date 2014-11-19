@@ -1,7 +1,3 @@
-# Audio
-etc/audio_policy.conf
-etc/mixer_paths.xml
-
 # Audio BLOBS
 lib/hw/audio.primary.msm8974.so
 
