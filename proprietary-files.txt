@@ -94,12 +94,6 @@ vendor/lib/libsensor1.so
 etc/sensor_def_qcomdev.conf
 etc/sensors_calib.conf
 
-# Sysmon
-etc/sysmon.cfg
-lib/libsysmon_jni.so
-lib/sysmon/sysmon_torch_limit.so
-lib/sysmon/sysmon_v_therm2.so
-
 # TFA98XX DSP
 etc/sforce/sforce_coef_music.bin
 etc/sforce/sforce_coef_video.bin
