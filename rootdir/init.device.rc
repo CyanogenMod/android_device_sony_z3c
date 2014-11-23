@@ -3,6 +3,14 @@ on boot
     chown system system /sys/class/leds/wled:backlight/brightness
     chmod 660 /sys/class/leds/wled:backlight/brightness
 
+    # LED
+    chown system system /sys/class/leds/led:rgb_red/brightness
+    chown system system /sys/class/leds/led:rgb_green/brightness
+    chown system system /sys/class/leds/led:rgb_blue/brightness
+    chmod 660 /sys/class/leds/led:rgb_red/brightness
+    chmod 660 /sys/class/leds/led:rgb_green/brightness
+    chmod 660 /sys/class/leds/led:rgb_blue/brightness
+
     # PM8941 flash
     chown system camera /sys/class/misc/pm8941-flash/device/current1
     chown system camera /sys/class/misc/pm8941-flash/device/current2

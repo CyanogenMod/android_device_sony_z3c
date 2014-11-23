@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013 The CyanogenMod Project
+ * Copyright (C) 2014 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,10 @@
  * limitations under the License.
  */
 
-char const*const LCD_BACKLIGHT_FILE  = "/sys/class/leds/wled:backlight/brightness";
-char const*const LCD_BACKLIGHT2_FILE = "/dev/null";
-char const*const MAX_BRIGHTNESS_FILE = "/sys/class/leds/wled:backlight/max_brightness";
-const int LCD_BRIGHTNESS_MIN         = 188;
+#define LED_BACKLIGHT_PATH "/sys/class/leds/wled:backlight/"
+
+#define LED_RED_PATH "/sys/class/leds/led:rgb_red/"
+#define LED_GREEN_PATH "/sys/class/leds/led:rgb_green/"
+#define LED_BLUE_PATH "/sys/class/leds/led:rgb_blue/"
+
+#define LED_BRIGHTNESS_MIN 188
