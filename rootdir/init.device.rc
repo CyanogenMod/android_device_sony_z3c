@@ -5,11 +5,27 @@ on boot
 
     # LED
     chown system system /sys/class/leds/led:rgb_red/brightness
+    chown system system /sys/class/leds/led:rgb_red/lut_pwm
+    chown system system /sys/class/leds/led:rgb_red/step_duration
     chown system system /sys/class/leds/led:rgb_green/brightness
+    chown system system /sys/class/leds/led:rgb_green/lut_pwm
+    chown system system /sys/class/leds/led:rgb_green/step_duration
     chown system system /sys/class/leds/led:rgb_blue/brightness
+    chown system system /sys/class/leds/led:rgb_blue/lut_pwm
+    chown system system /sys/class/leds/led:rgb_blue/step_duration
+    chown system system /sys/class/leds/rgb/sync_state
+    chown system system /sys/class/leds/rgb/start_blink
     chmod 660 /sys/class/leds/led:rgb_red/brightness
+    chmod 660 /sys/class/leds/led:rgb_red/lut_pwm
+    chmod 660 /sys/class/leds/led:rgb_red/step_duration
     chmod 660 /sys/class/leds/led:rgb_green/brightness
+    chmod 660 /sys/class/leds/led:rgb_green/lut_pwm
+    chmod 660 /sys/class/leds/led:rgb_green/step_duration
     chmod 660 /sys/class/leds/led:rgb_blue/brightness
+    chmod 660 /sys/class/leds/led:rgb_blue/lut_pwm
+    chmod 660 /sys/class/leds/led:rgb_blue/step_duration
+    chmod 660 /sys/class/leds/rgb/sync_state
+    chmod 220 /sys/class/leds/rgb/start_blink
 
     # PM8941 flash
     chown system camera /sys/class/misc/pm8941-flash/device/current1
