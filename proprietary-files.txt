@@ -49,9 +49,6 @@ vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/liboemcamera.so
 
-# Leds
-bin/illumination_service
-
 # Misc
 bin/chargemon
 bin/updatemiscta
