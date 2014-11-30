@@ -1,6 +1,3 @@
-# Audio BLOBS
-lib/hw/audio.primary.msm8974.so
-
 # Audio ACDB
 etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb
 etc/acdbdata/Liquid/Liquid_Handset_cal.acdb
