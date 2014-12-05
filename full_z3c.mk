@@ -13,25 +13,25 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
 
 # Torch
 PRODUCT_PACKAGES := \
     Torch
- 
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Common Sony Resources
 $(call inherit-product, device/sony/common/resources.mk)
 
-# Inherit from sirius device
-$(call inherit-product, device/sony/sirius/sirius.mk)
+# Inherit from z3c device
+$(call inherit-product, device/sony/z3c/z3c.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_sirius
-PRODUCT_DEVICE := sirius
+PRODUCT_NAME := full_z3c
+PRODUCT_DEVICE := z3c
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := Xperia Z2
+PRODUCT_MODEL := Xperia Z3C

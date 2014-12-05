@@ -15,7 +15,7 @@
 # Inherit the fusion-common definitions
 $(call inherit-product, device/sony/shinano-common/shinano.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/sony/sirius/overlay
+DEVICE_PACKAGE_OVERLAYS += device/sony/z3c/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -29,8 +29,8 @@ PRODUCT_COPY_FILES += \
 # currently contain all of the bitmaps at xhdpi density so
 # we do this little trick to fall back to the hdpi version
 # if the xhdpi doesn't exist.
-PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
+PRODUCT_AAPT_PREF_CONFIG := normal hdpi xhdpi
 
 # Device specific init
 PRODUCT_COPY_FILES += \
@@ -39,9 +39,6 @@ PRODUCT_COPY_FILES += \
 # USB function switching
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.sony.usb.rc:root/init.sony.usb.rc
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/d6502.sh:d6502.sh
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -53,7 +50,7 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/thermanager.xml:system/etc/thermanager.xml
 
 # call dalvik heap config
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Include non-opensource parts
-$(call inherit-product, vendor/sony/sirius/sirius-vendor.mk)
+$(call inherit-product, vendor/sony/z3c/z3c-vendor.mk)
