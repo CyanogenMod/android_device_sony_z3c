@@ -1,8 +1,24 @@
 # Audio ACDB
+etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb
+etc/acdbdata/Fluid/Fluid_General_cal.acdb
+etc/acdbdata/Fluid/Fluid_Global_cal.acdb
+etc/acdbdata/Fluid/Fluid_Handset_cal.acdb
+etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb
+etc/acdbdata/Fluid/Fluid_Headset_cal.acdb
 etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb
+etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb
+etc/acdbdata/Liquid/Liquid_General_cal.acdb
+etc/acdbdata/Liquid/Liquid_Global_cal.acdb
 etc/acdbdata/Liquid/Liquid_Handset_cal.acdb
+etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb
+etc/acdbdata/Liquid/Liquid_Headset_cal.acdb
 etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb
+etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+etc/acdbdata/MTP/MTP_General_cal.acdb
+etc/acdbdata/MTP/MTP_Global_cal.acdb
 etc/acdbdata/MTP/MTP_Handset_cal.acdb
+etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+etc/acdbdata/MTP/MTP_Headset_cal.acdb
 etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
 # ADSP
@@ -21,10 +37,14 @@ etc/firmware/adsp.b11
 etc/firmware/adsp.b12
 etc/firmware/adsp.mdt
 
+# Bluetooth
+etc/firmware/BCM43xx.hcd
+
 # Camera
 etc/flashled_calc_parameters.cfg
 lib/libcald_hal.so
 lib/libcameralight.so
+lib/libcammw.so
 vendor/camera/flash.dat
 vendor/camera/LGI02BN1_CACAO.dat
 vendor/camera/LGI02BN1.dat
@@ -46,11 +66,21 @@ vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/liboemcamera.so
 
+# HDCP
+etc/firmware/tzhdcp.b00
+etc/firmware/tzhdcp.b01
+etc/firmware/tzhdcp.b02
+etc/firmware/tzhdcp.b03
+etc/firmware/tzhdcp.mdt
+
 # Misc
 bin/chargemon
 bin/updatemiscta
 
 # Modem
+bin/sct_service
+etc/firmware/mba.b00
+etc/firmware/mba.mdt
 etc/firmware/modem.b00
 etc/firmware/modem.b01
 etc/firmware/modem.b02
@@ -138,3 +168,5 @@ usr/idc/clearpad.idc
 
 # WiFi firmware
 etc/firmware/wlan/bcmdhd/bcmdhd.cal
+etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin
+etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin
