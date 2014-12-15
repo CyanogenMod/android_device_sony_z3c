@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
 # we do this little trick to fall back to the hdpi version
 # if the xhdpi doesn't exist.
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
-PRODUCT_AAPT_PREF_CONFIG := normal hdpi xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Device specific init
 PRODUCT_COPY_FILES += \
