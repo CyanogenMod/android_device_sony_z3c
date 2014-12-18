@@ -23,8 +23,6 @@ TARGET_OTA_ASSERT_DEVICE := D5803,D5833,z3c
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/z3c/include
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/z3c/bluetooth
-
 BOARD_HARDWARE_CLASS += device/sony/z3c/cmhw
 
 # Kernel properties
