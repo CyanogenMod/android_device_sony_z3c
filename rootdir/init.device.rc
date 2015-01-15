@@ -35,10 +35,9 @@ on boot
     chown system camera /sys/class/misc/pm8941-flash/device/mode
     chown system camera /sys/class/misc/pm8941-flash/device/strobe
 
-    # Glove input
-    chown system system /sys/devices/virtual/input/max1187x/glove
-    chmod 0660 /sys/devices/virtual/input/max1187x/glove
+    # Touch
+    chown system system /sys/devices/virtual/input/clearpad/wakeup_gesture
 
-    # Tap to wake
-    chown system system /sys/devices/virtual/input/max1187x/power/wakeup
-    chmod 0660 /sys/devices/virtual/input/max1187x/power/wakeup
+    # Glove input
+    chown system system /sys/devices/virtual/input/clearpad/glove
+    chmod 0660 /sys/devices/virtual/input/clearpad/glove

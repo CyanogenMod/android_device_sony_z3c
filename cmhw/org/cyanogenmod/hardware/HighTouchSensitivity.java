@@ -24,7 +24,7 @@ import org.cyanogenmod.hardware.util.FileUtils;
  */
 public class HighTouchSensitivity {
 
-    private static String GLOVE_PATH = "/sys/devices/virtual/input/max1187x/glove";
+    private static String GLOVE_PATH = "/sys/devices/virtual/input/clearpad/glove";
 
     /**
      * Whether device supports high touch sensitivity.
