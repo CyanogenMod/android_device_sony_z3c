@@ -1,2 +1,2 @@
-/sys/devices/virtual/input/clearpad/glove -- u:object_r:sysfs_touch:s0
-/sys/devices/virtual/input/clearpad/wakeup_gesture -- u:object_r:sysfs_touch:s0
+/sys/devices/virtual/input/input1/glove -- u:object_r:sysfs_touch:s0
+/sys/devices/virtual/input/input1/wakeup_gesture -- u:object_r:sysfs_touch:s0
