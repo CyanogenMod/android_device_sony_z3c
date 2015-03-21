@@ -738,6 +738,7 @@
     </path>
 
     <path name="voice-call">
+        <ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="1" />
         <ctl name="Voice_Tx Mixer SLIM_0_TX_Voice" value="1" />
     </path>
 
@@ -1093,14 +1094,12 @@
     </path>
 
     <path name="speaker">
-        <ctl name="MultiMedia1 Mixer QUAT_MI2S_TX" value="1" />
         <ctl name="TFA98XX_PARAM_TYPE" value="Playback" />
         <ctl name="TFA98XX_CHANNEL" value="Both" />
         <ctl name="TFA98XX_SPKR_AMP" value="1" />
     </path>
 
     <path name="speaker-reverse">
-        <ctl name="MultiMedia1 Mixer QUAT_MI2S_TX" value="1" />
         <ctl name="TFA98XX_PARAM_TYPE" value="Playback" />
         <ctl name="TFA98XX_CHANNEL" value="Both" />
         <ctl name="TFA98XX_LR" value="Swap" />
@@ -1108,14 +1107,12 @@
     </path>
 
     <path name="fm-speaker">
-        <ctl name="MultiMedia1 Mixer QUAT_MI2S_TX" value="1" />
         <ctl name="TFA98XX_PARAM_TYPE" value="FM" />
         <ctl name="TFA98XX_CHANNEL" value="Both" />
         <ctl name="TFA98XX_SPKR_AMP" value="1" />
     </path>
 
     <path name="fm-speaker-reverse">
-        <ctl name="MultiMedia1 Mixer QUAT_MI2S_TX" value="1" />
         <ctl name="TFA98XX_PARAM_TYPE" value="FM" />
         <ctl name="TFA98XX_CHANNEL" value="Both" />
         <ctl name="TFA98XX_LR" value="Swap" />
@@ -1123,22 +1120,18 @@
     </path>
 
     <path name="ringtone-speaker">
-        <ctl name="MultiMedia1 Mixer QUAT_MI2S_TX" value="1" />
         <ctl name="TFA98XX_PARAM_TYPE" value="Ringtone" />
         <ctl name="TFA98XX_CHANNEL" value="Bottom" />
         <ctl name="TFA98XX_SPKR_AMP" value="1" />
     </path>
 
     <path name="sforce-speaker">
-        <ctl name="VOC_EXT_EC MUX" value="QUAT_MI2S_TX" />
-        <ctl name="AUDIO_EXT_EC MUX" value="QUAT_MI2S_TX" />
         <ctl name="TFA98XX_PARAM_TYPE" value="SForcePlayback" />
         <ctl name="TFA98XX_CHANNEL" value="Both" />
         <ctl name="TFA98XX_SPKR_AMP" value="1" />
     </path>
 
     <path name="sforce-speaker-reverse">
-        <ctl name="MultiMedia1 Mixer QUAT_MI2S_TX" value="1" />
         <ctl name="TFA98XX_PARAM_TYPE" value="SForcePlayback" />
         <ctl name="TFA98XX_CHANNEL" value="Both" />
         <ctl name="TFA98XX_LR" value="Swap" />
@@ -1552,8 +1545,6 @@
 
     <path name="voice-handset">
         <path name="handset" />
-        <ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="0" />
-        <ctl name="QUAT_MI2S_RX_Voice Mixer CSVoice" value="1" />
     </path>
 
     <path name="voice-handset-hac">
@@ -1585,10 +1576,6 @@
     </path>
 
     <path name="voice-speaker">
-        <ctl name="Voice_Tx Mixer SLIM_0_TX_Voice" value="1" />
-        <ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="0" />
-        <ctl name="QUAT_MI2S_RX_Voice Mixer CSVoice" value="1" />
-        <ctl name="MultiMedia1 Mixer QUAT_MI2S_TX" value="1" />
         <ctl name="TFA98XX_PARAM_TYPE" value="Speakerphone" />
         <ctl name="TFA98XX_CHANNEL" value="Bottom" />
         <ctl name="TFA98XX_SPKR_AMP" value="1" />
@@ -1605,8 +1592,6 @@
     </path>
 
     <path name="voice-headphones">
-        <ctl name="QUAT_MI2S_RX_Voice Mixer CSVoice" value="0" />
-        <ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="1" />
         <path name="headphone-voice-cfg" />
         <path name="sidetone-headphones" />
         <path name="voice-eq-off" />
