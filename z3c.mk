@@ -36,10 +36,6 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.device.rc:root/init.device.rc
 
-# USB function switching
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/init.sony.usb.rc:root/init.sony.usb.rc
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf \

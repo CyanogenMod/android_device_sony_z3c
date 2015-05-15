@@ -1,7 +1,7 @@
-# Make keys in CWM repeatable
-ro.cwm.enable_key_repeat=true
-
 # Graphics
 ro.sf.lcd_density=320
+
+# USB path
+ro.usb.pid_suffix=1BB
 
 ro.use_data_netmgrd=true
