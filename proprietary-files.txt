@@ -169,6 +169,7 @@ etc/firmware/touch_module_id_0x8e.img
 etc/firmware/touch_module_id_0x92.img
 etc/firmware/touch_module_id_0x93.img
 etc/firmware/touch_module_id_0x94.img
+etc/touch_fw_update.sh
 usr/idc/clearpad.idc
 
 # WiFi firmware
