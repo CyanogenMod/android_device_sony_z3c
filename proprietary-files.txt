@@ -173,6 +173,5 @@ etc/touch_fw_update.sh
 usr/idc/clearpad.idc
 
 # WiFi firmware
-etc/firmware/wlan/bcmdhd/bcmdhd.cal
-etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin
-etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin
+vendor/firmware/fw_bcmdhd_apsta.bin
+vendor/firmware/fw_bcmdhd.bin
