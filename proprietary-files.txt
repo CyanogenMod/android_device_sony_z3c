@@ -84,7 +84,6 @@ bin/chargemon
 bin/updatemiscta
 
 # Modem
-bin/sct_service
 etc/firmware/mba.b00
 etc/firmware/mba.mdt
 etc/firmware/modem.b00
