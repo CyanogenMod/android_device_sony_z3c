@@ -47,31 +47,6 @@ etc/firmware/adsp.mdt
 # Bluetooth
 etc/firmware/BCM43xx.hcd
 
-# Camera
-etc/flashled_calc_parameters.cfg
-lib/libcald_hal.so
-lib/libcameralight.so
-vendor/camera/flash.dat
-vendor/camera/LGI02BN1_CACAO.dat
-vendor/camera/LGI02BN1.dat
-vendor/camera/LGI02BN1_IMX132.dat
-vendor/camera/product_CACAO.dat
-vendor/camera/product.dat
-vendor/camera/SEM02BN1_CACAO.dat
-vendor/camera/SEM02BN1.dat
-vendor/camera/SEM02BN1_IMX132.dat
-vendor/camera/SOI20BS0_BU64296GWX.dat
-vendor/camera/SOI20BS0_CACAO.dat
-vendor/camera/SOI20BS0.dat
-vendor/camera/SOI20BS0_IMX200.dat
-vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_imglib_modules.so
-vendor/lib/libmmcamera2_isp_modules.so
-vendor/lib/libmmcamera2_sensor_modules.so
-vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmcamera2_stats_modules.so
-vendor/lib/liboemcamera.so
-
 # HDCP
 etc/firmware/tzhdcp.b00
 etc/firmware/tzhdcp.b01
