@@ -1,0 +1,40 @@
+# Sensor-specific camera blobs
+# Moved from our msm8974-common
+# IMX200, IMX132
+vendor/lib/libactuator_bu64296gwx.so
+vendor/lib/libactuator_bu64296gwx_camcorder.so
+vendor/lib/libactuator_bu64296gwx_camera.so
+vendor/lib/libchromatix_imx132_common.so
+vendor/lib/libchromatix_imx132_cpp_liveshot.so
+vendor/lib/libchromatix_imx132_cpp_preview.so
+vendor/lib/libchromatix_imx132_cpp_snapshot.so
+vendor/lib/libchromatix_imx132_cpp_video.so
+vendor/lib/libchromatix_imx132_default_video.so
+vendor/lib/libchromatix_imx132_liveshot.so
+vendor/lib/libchromatix_imx132_postproc.so
+vendor/lib/libchromatix_imx132_preview.so
+vendor/lib/libchromatix_imx132_snapshot.so
+vendor/lib/libchromatix_imx200_common.so
+vendor/lib/libchromatix_imx200_cpp_hfr_120.so
+vendor/lib/libchromatix_imx200_cpp_hfr_60.so
+vendor/lib/libchromatix_imx200_cpp_hfr_90.so
+vendor/lib/libchromatix_imx200_cpp_liveshot.so
+vendor/lib/libchromatix_imx200_cpp_preview.so
+vendor/lib/libchromatix_imx200_cpp_snapshot.so
+vendor/lib/libchromatix_imx200_cpp_snapshot_hdr.so
+vendor/lib/libchromatix_imx200_cpp_video.so
+vendor/lib/libchromatix_imx200_cpp_video_4k.so
+vendor/lib/libchromatix_imx200_cpp_video_hdr.so
+vendor/lib/libchromatix_imx200_default_video.so
+vendor/lib/libchromatix_imx200_hfr_120.so
+vendor/lib/libchromatix_imx200_hfr_60.so
+vendor/lib/libchromatix_imx200_hfr_90.so
+vendor/lib/libchromatix_imx200_liveshot.so
+vendor/lib/libchromatix_imx200_postproc.so
+vendor/lib/libchromatix_imx200_preview.so
+vendor/lib/libchromatix_imx200_snapshot.so
+vendor/lib/libchromatix_imx200_snapshot_hdr.so
+vendor/lib/libchromatix_imx200_video_4k.so
+vendor/lib/libchromatix_imx200_video_hdr.so
+vendor/lib/libmmcamera_imx132.so
+vendor/lib/libmmcamera_imx200.so
