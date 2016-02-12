@@ -41,6 +41,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 
+# Sensors
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
+
 # Thermal manager
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/thermanager.xml:system/etc/thermanager.xml
