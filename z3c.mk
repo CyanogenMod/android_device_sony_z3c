@@ -41,6 +41,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 
+# NFC
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+   $(LOCAL_PATH)/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
+
 # Sensors
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
