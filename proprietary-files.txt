@@ -1,3 +1,6 @@
+# Bluetooth
+etc/firmware/BCM43xx.hcd
+
 # TFA98XX DSP
 etc/tfa98xx/btm.speaker
 etc/tfa98xx/coldboot.patch
